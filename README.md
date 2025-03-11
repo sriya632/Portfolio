@@ -1,2 +1,3 @@
 # Portfolio
-Creating a portfolio using Html and CSS.
+This is my portfolio. I made this using react and javascript.
+Portfolio
