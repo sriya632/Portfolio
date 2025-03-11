@@ -157,13 +157,13 @@ const BeyondWork = () => {
       <ImagesContainer>
         <ImageWrapper>
           <Image
-            src="/IMG_3333.jpg"
+            src="${process.env.PUBLIC_URL}/IMG_3333.jpg"
             alt="Adventure Experience"
           />
         </ImageWrapper>
         <ImageWrapper>
           <Image
-            src="/Screenshot 2025-03-11 at 12.28.41 AM.png"
+            src="${process.env.PUBLIC_URL}/Screenshot 2025-03-11 at 12.28.41 AM.png"
             alt="Travel Experience"
           />
         </ImageWrapper>
