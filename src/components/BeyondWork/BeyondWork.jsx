@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import adventureImg from '../../SkyDivingImg.jpg'
+import travelImg from '../../TravelImg.png'
 
 const Container = styled.div`
   max-width: 1100px;
@@ -157,13 +159,13 @@ const BeyondWork = () => {
       <ImagesContainer>
         <ImageWrapper>
           <Image
-            src="{`https://github.com/sriya632/Portfolio/blob/main/public/IMG_3333.jpg`}"
+            src={adventureImg}
             alt="Adventure Experience"
           />
         </ImageWrapper>
         <ImageWrapper>
           <Image
-            src="{`https://github.com/sriya632/Portfolio/blob/main/public/Screenshot%202025-03-11%20at%2012.28.41%E2%80%AFAM.png`}"
+            src={travelImg}
             alt="Travel Experience"
           />
         </ImageWrapper>
