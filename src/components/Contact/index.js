@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import styled from 'styled-components';
 import emailjs from '@emailjs/browser';
 import { Snackbar, Alert } from '@mui/material';
@@ -120,28 +120,36 @@ const ContactButton = styled.input`
 const Contact = () => {
   const [open, setOpen] = useState(false);
   const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
   const form = useRef();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Submit button clicked!"); // Debugging
+  useEffect(() => {
+    emailjs.init("g-BbhlLWtXd-KO6Yv"); // Replace with your actual public key
+  }, []);
 
-    emailjs.sendForm(
-      'service_1336xhh', // Replace with your actual service ID
-      'template_nv7k7mj', // Replace with your actual template ID
-      form.current,
-      'SybVGsYS52j2TfLbi' // Replace with your actual public key
-    )
-    .then((result) => {
-      console.log("Email sent successfully:", result.text);
-      setOpen(true);
-      form.current.reset();
-    })
-    .catch((error) => {
-      console.error("Email send failed:", error);
-      setError(true);
-    });
-  };
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      setLoading(true);
+      
+      try {
+        const result = await emailjs.sendForm(
+          'service_1336xhh', // Your EmailJS service ID
+          'template_g2ybwzp', // Your EmailJS template ID
+          form.current
+        );
+        
+        console.log("Email sent successfully:", result.text);
+        setOpen(true);
+        form.current.reset();
+      } catch (error) {
+        console.error("Email send failed:", error);
+        setError(true);
+        setErrorMessage(error.text || 'Failed to send email. Please try again later.');
+      } finally {
+        setLoading(false);
+      }
+    };
 
   return (
     <Container>
