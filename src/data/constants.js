@@ -181,6 +181,23 @@ export const experiences = [
     ],
     
   },
+  {
+    id: 1,
+    img: "",
+    role: "Frontend Developer Intern",
+    company: "AriInnovation",
+    date: "March 2025 - July 2025",
+    desc: "Collaborated in developing React.js prototype components for cryptocurrency wallet interface, implementing Web3.js integration.Built responsive mockup dashboard using Tailwind CSS and React hooks, showcasing how wellness metrics could connect with reward systems for potential investor demonstrations.",
+    skills: [
+      "React",
+      "TailwindCSS",
+      "Web.js",
+      "UI/UX",
+      "Agile",
+      
+    ],
+    
+  },
   
 ];
 
@@ -366,6 +383,18 @@ export const projects = [
       "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
+    
+  },
+  {
+    id: 11,
+    title: "MysterAI",
+    date: "Apr 2025",
+    description:
+      "MysteryAI is an interactive AI-driven murder mystery game. It generates dynamic cases using GenAI. Players can interrogate suspects and witnesses. Each case is unique and engaging.",
+    image:
+      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+    tags: ["React", "TailwindCSS", "Firebase", "Google Gemini flash api", "Hugging face transformers", "RAG"],
+    category: "web app",
     
   },
 ];
