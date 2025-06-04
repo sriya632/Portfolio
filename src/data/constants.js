@@ -231,7 +231,7 @@ export const projects = [
     description:
       "Developed a comprehensive educational web application using React, Spring Boot, and MongoDB, featuring interactive courses,flashcards, and note-taking capabilities. Implemented a microservices architecture to enhance scalability and maintainability",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: [
       "React Js",
       "MongoDb",
@@ -251,7 +251,7 @@ export const projects = [
     description:
       "Moondrop Dale is a game in which the player is responsible for growing crops, cooking nutritional meals, and completing quests for their fellow villagers—through this process, they learn how to take care of plants and sustain a healthy diet.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["Unit 3D", "C#", "AI","Game Programming"],
     github: "https://github.com/anishard/GameProgramming",
     
@@ -263,7 +263,7 @@ export const projects = [
     description:
       "Designed a blockchain-based health record system using Solidity smart contracts, ensuring 100% tamper-proof storage.Integrated a secure frontend-backend architecture with React and Web3.js, automating deployment via npm scripts and Cypress testing. Configured backend services in Node.js, linking with Polygon Amoy Testnet via Web3.js, supporting 1000+ transactions/month.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["React Js", "Java Script", "Web3 Js", "Solidity", "Node Js", "Smart Contracts", "Blockchain"],
     category: "web app",
     github: "https://github.com/sriya632/Medi_vault",
@@ -277,7 +277,7 @@ export const projects = [
     description:
       "Developed an unsupervised segmentation model to delineate abdominal organs in 4D-MRI sequences, reducing reliance on manual annotations. Integrated K-Means clustering and 3D CNNs to enhance segmentation precision, addressing noise and motion artifacts. Compared and Evaluated unsupervised models (K-Means, 3D CNNs) against supervised models (U-Net, Mask R-CNN) to determine the most effective approach based on accuracy and feasibility.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["Python", "Machine Learning ", "k-means", "CNN", "3D CNN", "Unsupervised Learning"],
     category: "machine learning",
     
@@ -290,7 +290,7 @@ export const projects = [
     description:
       "The Counterfeit Product Detection Using Blockchain project is a system designed to authenticate products and eliminate counterfeit goods by using blockchain technology.The application was developed using Python and Tkinter for the graphical user interface (GUI). The blockchain implementation is managed via the Blockchain.py and Block.py files, which handle the creation, validation, and storage of blocks containing product details.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: [
       "Python",
       "Tkinter",
@@ -313,7 +313,7 @@ export const projects = [
     description:
       "Developed a full-stack web application using Flask for the backend and React with Chakra UI for the frontend, enabling users to create, edit, and delete friend profiles.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["Python", "Flask", "SQLLite", "SQLAlchemy", "Postman", "React"],
     category: "web app",
     github: "https://github.com/sriya632/FriendsUp",
@@ -326,7 +326,7 @@ export const projects = [
     description:
       "The project involved analysis of the heart disease patient dataset with proper data processing. Then, different models were trained and and predictions are made with different algorithms KNN, Decision Tree, Random Forest,SVM,Logistic Regression etc.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["python", "scikit-learn", "keras", "numpy"],
     category: "machine learning",
     github: "https://github.com/sriya632/Heart-Disease-Prediction-using-Machine-Learning",
@@ -340,7 +340,7 @@ export const projects = [
     description:
       "Created a recurrent neural network and trained it on a tweet emotion dataset to learn to recognize emotions in tweets. This dataset has thousands of tweets each classified in one of 6 emotions. This project is a multi class classification problem in the natural language processing domain. TensorFlow is used as machine learning framework.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["Python", "Tensoflow", "NLP", "Neural Networks"],
     category: "machine learning",
     github: "https://github.com/sriya632/Tweet-Emotion-Recognition-Using-TensorFlow",
@@ -353,7 +353,7 @@ export const projects = [
     description:
       " The Disney+ Hotstar Clone is a static web application that replicates the user interface and experience of the Disney+ Hotstar streaming platform. It allows users to browse TV shows, movies, and sports categories with an interactive and visually appealing UI.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["HTML", "Javascript", "CSS", "jQuery"],
     category: "web app",
     github: "https://github.com/sriya632/Disney-Hotstar-clone",
@@ -367,7 +367,7 @@ export const projects = [
     description:
       "A simple Rock Paper Scissors game made with HTML, CSS, and Javascript. It has a simple UI and is easy to play. It also has a score counter to keep track of the score.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/sriya632/Rock_Paper_Scissors",
@@ -380,7 +380,7 @@ export const projects = [
     description:
       "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
     
@@ -392,7 +392,7 @@ export const projects = [
     description:
       "MysteryAI is an interactive AI-driven murder mystery game. It generates dynamic cases using GenAI. Players can interrogate suspects and witnesses. Each case is unique and engaging.",
     image:
-      "${process.env.PUBLIC_URL}/PathForward-scaled.jpg",
+      `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["React", "TailwindCSS", "Firebase", "Google Gemini flash api", "Hugging face transformers", "RAG"],
     category: "web app",
     
