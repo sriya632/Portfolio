@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import adventureImg from '../../SkyDivingImg.jpg'
-import travelImg from '../../TravelImg.png'
+import adventureImg from 'public/SkyDivingImg.jpg'
+import travelImg from 'public/TravelImg.jpg'
 
 const Container = styled.div`
   max-width: 1100px;

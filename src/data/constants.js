@@ -282,6 +282,7 @@ export const projects = [
     category: "machine learning",
     
     
+    
   },
   {
     id: 9,
@@ -387,7 +388,7 @@ export const projects = [
   },
   {
     id: 11,
-    title: "MysterAI",
+    title: "MysteryAI",
     date: "Apr 2025",
     description:
       "MysteryAI is an interactive AI-driven murder mystery game. It generates dynamic cases using GenAI. Players can interrogate suspects and witnesses. Each case is unique and engaging.",
@@ -395,6 +396,7 @@ export const projects = [
       `${process.env.PUBLIC_URL}/PathForward-scaled.jpg`,
     tags: ["React", "TailwindCSS", "Firebase", "Google Gemini flash api", "Hugging face transformers", "RAG"],
     category: "web app",
+    github:"https://github.com/sriya632/MysteryAI",
     
   },
 ];
